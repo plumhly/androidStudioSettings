@@ -1,0 +1,29 @@
+<templateSet group="Flutter">
+  <template name="bw" value="Widget _build$name$() {&#10;    &#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="name" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="iy" value="import 'package:yunke/generated/l10n.dart';" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="ifn" value="if (null != $condition$) {&#10;    $END$&#10;}" description="judge null" toReformat="false" toShortenFQNames="true">
+    <variable name="condition" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="ss" value="S.of(Get.context!)" description="internal" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="tst" value="Container(height: 100, width: 100, color: Colors.red,)," description="use for test" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+</templateSet>

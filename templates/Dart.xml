@@ -1,0 +1,26 @@
+<templateSet group="Dart">
+  <template name="oif" value="if ($condiction$) {&#10;    $content$&#10;}" description="only single if" toReformat="true" toShortenFQNames="true">
+    <variable name="condiction" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="tag" value="static const String _TAG = &quot;$tag$&quot;;" description="tag" toReformat="true" toShortenFQNames="true">
+    <variable name="tag" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="gc" value="import 'package:get/get.dart';&#10;&#10;class $classname$ extends GetxController {&#10;  &#10;}" description="getx controller" toReformat="true" toShortenFQNames="true">
+    <variable name="classname" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="is" value="import 'package:flutter_sdk/util/yunke_size_extension.dart';" description="import size" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+</templateSet>
